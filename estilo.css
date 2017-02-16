@@ -21,17 +21,23 @@ body{
 }
 /* -- Barra de Navegação */
 .img-logo{
-	height: 40px;
+	height: 70px;
 	width: 132px;
 	display: block;
-	background: url(imagens/spotify.svg) no-repeat;
+	background: url(imagens/logo-branca.png) no-repeat;
 	background-size: contain;
-	color: transparent;
 }
+.logo-centro{
+	height: 70px;
+	width: 132px;
+	display: block;
+	background: url(imagens/icone.png) no-repeat;
+	background-size: contain;
 
+}
 nav.navbar-transparente{
 	padding: 15px 0px;
-	background: rgba(0, 0, 0, 0.6);
+	background: rgba(0, 0, 0, 0.6);	
 	border: none;
 }
 
@@ -55,9 +61,19 @@ nav.navbar-transparente{
 }
 
 /* -- Imagem Capa do Site */
+.player{
+	padding-top: 250px;
+	padding-left: 150px;
+}
 .capa{
 	display: table;
 	width: 100%;
+}
+
+.page-facebook{
+	padding-top: 150px;
+	padding-left: 50px;
+	float: left;
 }
 .texto-capa{
 	text-align: center;
@@ -128,6 +144,7 @@ footer{
 	padding: 50px 0px 20px 0px;
 	position: relative;
 }
+
 .item-rede-social{
 	float: right;
 }
@@ -148,7 +165,7 @@ h2{
 }
 
 h3{
-	font-size: 35px;
+	font-size: 30px;
 	font-weight: 700;
 	letter-spacing: -0.04em;
 }
@@ -157,7 +174,6 @@ h3{
 	color: #919496;
 	font-size: 12px;
 	text-transform: uppercase;
-
 
 }
 
