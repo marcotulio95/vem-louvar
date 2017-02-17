@@ -12,9 +12,7 @@ html,body, .capa{
 }
 
 body{
-	background: url('imagens/capa.png'),
-	url('imagens/ruido.png'),
-	linear-gradient(50deg,#ff4169,#7c26f8);
+	background: url(imagens/logo-branca.png),   url(imagens/ruido.png),   linear-gradient(180deg,#41ffe5,#f8f226);
 	background-attachment: fixed;
 	font-family: Helvetica,Arial,sans-serif;
 	overflow-x: hidden;
@@ -37,7 +35,7 @@ body{
 }
 nav.navbar-transparente{
 	padding: 15px 0px;
-	background: rgba(0, 0, 0, 0.6);	
+	background: rgba(0, 0, 0, 0.64);
 	border: none;
 }
 
@@ -71,6 +69,7 @@ nav.navbar-transparente{
 }
 
 .page-facebook{
+	bottom: 0px;
 	padding-top: 150px;
 	padding-left: 50px;
 	float: left;
@@ -150,7 +149,20 @@ footer{
 }
 
 /*=============================== Tipografia ========================================*/
-
+a:link{
+	color: white;
+	text-decoration: none;
+}
+a:link, a:visited {
+	text-decoration: none
+}
+a:hover {
+	text-decoration: none; 
+	color: white;
+	}
+a:active {
+	text-decoration: none
+	}
 h1{
 	font-size: 100px;
 	font-weight: 900;

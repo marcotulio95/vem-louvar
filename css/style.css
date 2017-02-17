@@ -28,6 +28,7 @@ body {
 
 .header .big-spinner {
     background-color: #000;
+    float: right;
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -38,6 +39,21 @@ body {
 
 .header .spinner-outer img {
     width: 250px;
+}
+
+
+.spinner-volume {
+    position: absolute;
+    float: left;
+    background: linear-gradient(30deg,#000000,#df3b3c);
+    border-radius: 500px;
+    padding-top: 5px;
+    left: 50%;
+    bottom: 30%;
+    margin-left: -110px;
+    margin-top: -40px;
+    width: 250px;
+    height: 30px;;
 }
 
 .header .spinner-center img {

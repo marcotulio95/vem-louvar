@@ -12,12 +12,16 @@ var mySpinner = document.getElementById('spinner'),
 
 
 
-volume.onclick = function(){
+volume.onchange = function(){
 
     mySong.volume= volume.value;
 }
 
-mySpinner.onclick = function () {
+mySong.onload = function(){
+    alert('Oi');
+} 
+
+ mySpinner.onclick = function () {
     'use strict';
     
     if (mySong.paused === false) {
