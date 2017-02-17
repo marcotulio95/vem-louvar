@@ -1,6 +1,6 @@
 var mySpinner = document.getElementById('spinner'),
     
-    mySong = document.getElementById('song'),
+    mySong = document.getElementById('player-flow'),
     
     myIcon = document.getElementById('icon'),
     
